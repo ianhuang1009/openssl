@@ -235,8 +235,8 @@ typedef INT16 int16_t;
 typedef UINT16 uint16_t;
 typedef INT32 int32_t;
 typedef UINT32 uint32_t;
-typedef INT64 int64_t;
-typedef UINT64 uint64_t;
+typedef long int64_t;
+typedef unsigned long uint64_t;
 # elif (defined(__STDC_VERSION__) && __STDC_VERSION__ >= 199901L) || \
      defined(__osf__) || defined(__sgi) || defined(__hpux) || \
      defined(OPENSSL_SYS_VMS) || defined (__OpenBSD__)
